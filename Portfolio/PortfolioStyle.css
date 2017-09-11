@@ -1,0 +1,108 @@
+#header h1{
+font-family: cursive;
+display: inline-block;
+}
+
+#header h3{
+  display:inline-block;
+}
+
+#wrapper{
+  height:auto;
+  width:970px;
+  background-color: rgb(160,74,142);
+}
+
+#box1-1 img{
+  height:260px;
+  width: 390px;
+  display: inline-block;
+  margin:20px;
+  border:3px solid grey;
+
+}
+
+#box1-1 {
+  display:inline-block;
+
+}
+
+#box1-2 {
+  height:260px;
+  width: 480px;
+  display:inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+
+}
+
+.gradient{
+  background-image:
+  -webkit-gradient(radial, center top, 0, center top, 486,
+    color-stop(0, #8F9997), color-stop(1, #D1D1D1));
+}
+#box1-2-1{
+  height:40px;
+  display: block;
+  padding-left: 5px;
+  color:white;
+}
+
+#box1-2-2{
+  height:220px;
+  background-color: white;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+#box1-2-2 p{
+  font: 15px arial, sans-serif;
+}
+
+#box1-2-2 h4{
+  text-decoration: underline;
+}
+
+#box2-1{
+  margin-left: 20px;
+}
+.headers{
+  color:white;
+}
+
+.headersize{
+  height:40px;
+  width:260px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.boximage{
+  height:150px;
+  width:270px;
+
+}
+
+.txt{
+  height:250px;
+  width:260px;
+  background-color: white;
+  color:black;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.logo{
+  height:150px;
+  width:260px;
+  background-color: white;
+  padding-left: 10px;
+  padding-top: 5px;
+
+}
+
+.logoimage{
+  height:70px;
+  width:70px;
+}
