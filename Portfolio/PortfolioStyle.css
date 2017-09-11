@@ -1,16 +1,32 @@
+
+#header{
+  width:970px;
+  background-color:#E6E6FA;
+}
+
+#footer{
+  width:970px;
+  background-color:#E6E6FA;
+}
+
 #header h1{
 font-family: cursive;
 display: inline-block;
+margin-left: 20px;
 }
 
 #header h3{
   display:inline-block;
+  float:right;
+  margin-top: 30px;
+  margin-right: 20px;
 }
 
 #wrapper{
   height:auto;
   width:970px;
   background-color: rgb(160,74,142);
+  padding-bottom: 20px;
 }
 
 #box1-1 img{
@@ -19,12 +35,11 @@ display: inline-block;
   display: inline-block;
   margin:20px;
   border:3px solid grey;
-
+  display:inline-block;
 }
 
 #box1-1 {
   display:inline-block;
-
 }
 
 #box1-2 {
@@ -33,7 +48,11 @@ display: inline-block;
   display:inline-block;
   vertical-align: top;
   margin-left: 20px;
+}
 
+#box1-2-1 h3{
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 .gradient{
@@ -65,12 +84,13 @@ display: inline-block;
 
 #box2-1{
   margin-left: 20px;
+  display: inline-block;
 }
-.headers{
+.title{
   color:white;
 }
 
-.headersize{
+.titlesize{
   height:40px;
   width:260px;
   padding-left: 10px;
@@ -81,20 +101,22 @@ display: inline-block;
 .boximage{
   height:150px;
   width:270px;
-
+  vertical-align: bottom;
 }
 
-.txt{
-  height:250px;
-  width:260px;
+.txtsize{
+  height:200px;
+  width:270px;
   background-color: white;
-  color:black;
-  padding-left: 10px;
-  padding-top: 5px;
+}
+.txt{
+  padding:10px;
+  margin:0px;outline:none;
+  vertical-align: top;
 }
 
 .logo{
-  height:150px;
+  height:200px;
   width:260px;
   background-color: white;
   padding-left: 10px;
@@ -105,4 +127,35 @@ display: inline-block;
 .logoimage{
   height:70px;
   width:70px;
+}
+
+#box2-2{
+  margin-left: 50px;
+  display: inline-block;
+}
+
+#box2-3{
+  margin-left: 50px;
+  display: inline-block;
+}
+
+button{
+  background-color: green;
+  color:white;
+  font-size: 12pt;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.socialImage{
+  height:20px;
+  weight:20px;
+}
+
+#footer{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
