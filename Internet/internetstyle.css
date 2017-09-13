@@ -1,0 +1,214 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+#wrapper{
+  margin-left: 10px;
+  width:970px
+  height:auto
+
+}
+
+#globe{
+  display:inline-block;
+  position: absolute;
+  top:20px;
+  height: 80px;
+  width:80px
+
+}
+
+#globe-txt{
+  display:inline-block;
+  position: relative;
+  top:40px;
+  left: 80px;
+
+  height: 80px;
+  width:auto;
+
+}
+
+#globe-txt .net{
+  color:blue;
+}
+
+#header{
+  width:970px;
+  padding:20px;
+  color:white;
+  font-size: 25pt;
+  background-color:blue;
+
+}
+
+#c1{
+  width:230px;
+  height: auto;
+  display: inline-block;
+
+}
+
+#c1 .red{
+  color:red;
+}
+
+#c1 .blue{
+  color:blue;
+}
+
+#c1 h3,
+#c1 h5{
+  margin-top: 30px;
+}
+
+#c1 button{
+  margin-top: 20px;
+  width: 210px;
+  height:50px;
+  border-radius: 15px;
+}
+#c1 .button-txt{
+  color:white;
+  font-weight: bold;
+  font-size: 10pt;
+  padding: 5px 15px;
+}
+
+#c1 .top{
+  background-color: blue;
+}
+
+#c1 .bottom{
+  background-color: orange;
+}
+
+#c1 hr{
+  margin-top: 30px;
+}
+
+#ninja{
+  background-image: url("./images/ad_background.png");
+  width: 220px;
+  height: auto;
+  margin-top:30px;
+}
+
+#ninja h4{
+  color:white;
+  width:210px;
+  text-align: center;
+  padding-top:20px;
+}
+
+#ninja img{
+  width:150px;
+  height:200px;
+  margin-left: 15px;
+}
+
+
+
+#ninja button{
+  font-size: 10pt;
+  font-weight: bold;
+  background-color: blue;
+  color:white;
+  width: 170px;
+  margin-left: 15px;
+}
+
+#c2{
+  width:770px;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+
+}
+
+#top-bar .house{
+  width: 20px;
+  height: 20px;
+  display: inline;
+
+
+}
+
+#top-bar h3{
+  font-size: 12pt;
+  color:blue;
+  display: inline;
+}
+
+#top-bar .phone{
+  width: 40px;
+  height: 40px;
+  display: inline;
+  margin-left: 450px;
+
+
+
+}
+
+#top-bar .contact{
+  display:inline-block;
+  padding-right: 0px;
+  margin-top: 10px;
+}
+
+#c2 hr{
+  margin-top:20px;
+}
+
+.main_content{
+  color:blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.content_blue{
+  color:blue;
+}
+
+.content_bold{
+  font-weight: bold;
+}
+
+.bullets{
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top:10px;
+}
+
+#content_img{
+  margin-top: 50px;
+  margin-left: 200px;
+  width: 280px;
+  height: 100px;
+
+}
+
+#box{
+  border: 3pt solid blue;
+  border-bottom: 0pt;
+  margin-top: 10px;
+
+}
+
+#box img{
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 100px;
+  height: 90px;
+  display: inline-block;
+}
+
+#box_content{
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 600px;
+}
