@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NumbersOnly</title>
+    <script type = "text/javascript" >
+
+    function onlynumber(getNumber){
+      var newArr = [];
+      for (var i =0; i < getNumber.length; i=i+1){
+        if(typeof getNumber[i] === "number"){
+          newArr.push(getNumber[i]);
+        }
+      }
+      return newArr;
+    }
+
+    var ret = onlynumber(["read",1,3,5]);
+     console.log(ret);
+
+
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
