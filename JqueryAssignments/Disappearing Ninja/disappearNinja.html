@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DisappearNinja</title>
+    <script type = "text/javascript" src =
+    "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+    <script>
+    $(document).ready(function(){
+      $('img').click(function(){
+        $(this).hide()
+      })
+
+      $('button').click(function(){
+        $('img').show();
+      })
+
+
+
+
+
+    })
+
+    </script>
+  </head>
+  <body>
+    <div>
+      <img src = "home.png" alt ="home" />
+      <img src = "home.png" alt ="home" />
+      <img src = "home.png" alt ="home" />
+      <img src = "home.png" alt ="home" />
+    </div>
+
+    <div>
+      <img src = "home.png" alt ="home" />
+      <img src = "home.png" alt ="home" />
+      <img src = "home.png" alt ="home" />
+      <img src = "home.png" alt ="home" />
+    </div>
+
+    <button>Restore</button>
+
+  </body>
+</html>
