@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>contact</title>
+    <link rel = "stylesheet" type = 'text/css' href = 'contact.css'  />
+    <script type = "text/javascript" src =
+    "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+    <script>
+    $(document).ready(function(){
+      $('button').submit(function(){
+        $(this).click()
+        return false;
+      })
+      $(document).on('click','button',function(){
+        $('#C2').append('<div class = "card" <h1>' +
+        $('#fn').val() + ' ' + $('#ln').val()  + '</h1>'
+        + '<p> click for description! </p>' )
+        $('.card').click(function(){
+          $(this).html('<div class = "card" <h1>' +
+          $('#fn').val() + ' ' + $('#ln').val()  + '</h1>'
+          + '<p>' + $('#des').val() + '</p>')
+        })
+
+      })
+
+
+
+
+
+    })
+
+
+
+
+
+    </script>
+  </head>
+  <body>
+    <div id = "C1">
+
+      <form id = "contact">
+        <p class ='first'>First Name: </p><input  type = "text" value = "" class = 'first' id ="fn"/>
+        <p class = 'last'>Last Name: </p> <input type = "text" value = "" class ='last' id ="ln"/>
+      </form>
+
+      <h4 id ="des">Description:</h4>
+      <textarea name="description" form="contact">
+      Enter descirption here</textarea> </br>
+
+      <button>Add Users</button>
+    </div>
+
+    <div id = 'C2'>
+
+    </div>
+
+
+  </body>
+</html>
