@@ -17,9 +17,7 @@
         $('#fn').val() + ' ' + $('#ln').val()  + '</h1>'
         + '<p> click for description! </p>' )
         $('.card').click(function(){
-          $(this).html('<div class = "card" <h1>' +
-          $('#fn').val() + ' ' + $('#ln').val()  + '</h1>'
-          + '<p>' + $('#des').val() + '</p>')
+          $(this).text( $('textarea').val());
         })
 
       })
@@ -44,7 +42,7 @@
         <p class = 'last'>Last Name: </p> <input type = "text" value = "" class ='last' id ="ln"/>
       </form>
 
-      <h4 id ="des">Description:</h4>
+      <h4>Description:</h4>
       <textarea name="description" form="contact">
       Enter descirption here</textarea> </br>
 
