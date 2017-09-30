@@ -1,0 +1,12 @@
+#pic{
+  width: 900px;
+  display: inline-block;
+}
+
+#box{
+  border: 5pt solid red;
+  width: 200px;
+  height: 500px;
+  display: inline-block;
+  vertical-align: top;
+}

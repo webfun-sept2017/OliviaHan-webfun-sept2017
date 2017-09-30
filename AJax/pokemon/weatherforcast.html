@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>weather</title>
+    <script type = "text/javascript" src =
+    "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+      <script>
+      $(document).ready(function(){
+        $('#submit').click(function(){
+          var loc = $('#location').val();
+          $.get(`https://api.openweathermap.org/data/2.5/weather?q=${loc}&APPID=fc71b371cd79de9fca9939b81aedcbf8`,function(data){
+            console.log(data);
+            var html = `<h1>${data.name}</h1>`
+            html+= `<h4>Temperature:${data.main.temp} </h4>`
+            $('#results').append(html);
+          },'json')
+
+          return false
+        })
+
+
+
+
+
+
+      })
+
+
+      </script>
+
+
+  </head>
+  <body>
+    <form>
+      <input id = "location" type = "text" />
+      <input id = 'submit' type = "submit" value = "Search Weather" />
+    </form>
+
+    <div id = "results"></div>
+
+
+  </body>
+</html>
